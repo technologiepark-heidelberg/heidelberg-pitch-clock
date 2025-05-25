@@ -11,7 +11,7 @@ Last time, we used a second projector for the countdown. It was a hassle to set 
 
 We searched high and low. Sports clocks were way too expensive. Workshop timers were too small. And nothing out there felt right for a hackathon.
 
-With just a few days before the event, I decided to build our own clock. It needed to be noticeable for our 100+ audience, flexible for our timing needs, and a bit nerdy for that hackathon vibe.
+With just a few days before the event, I decided to build our own clock. It needed to be noticeable for our 100+ audience, flexible for our timing needs, and a bit nerdy for that hackathon vibe. The concept was inspired by the [Flaschen Taschen](https://www.noisebridge.net/wiki/Flaschen_Taschen) project I had seen at the Noisebridge hackerspace in San Francisco. 
 
 What started as a last-minute fix turned into something bigger. We’ve used that clock at countless events and accelerator programs. It’s become a bit of a star, even getting borrowed by friends and partners in the innovation scene. People loved it so much they've asked how we made it.
 
@@ -33,6 +33,10 @@ The Arduino version has served us well for years. We've used it almost every eve
 
 But technically, there's a catch: microcontrollers with Wi-Fi use 3.3 volts, while the LEDs need 5 volts. So, we'll need an extra component—a level shifter. And since we're upgrading, we'll also modernize the display and replace the potentiometer with two more buttons.
 
+## Custom PCB to the rescue
+
+The level shifter was necessary, which made mounting and cabling all the components individually impractical. The solution was a custom-printed circuit board (PCB), which unified the microcontroller, display and level shifter.
+
 ## The latest bill of materials
 
 * 92 individually addressable RGB LEDs with 12mm diameter (WS2801)
@@ -43,4 +47,5 @@ But technically, there's a catch: microcontrollers with Wi-Fi use 3.3 volts, whi
 * A level shifter
 * A diode
 * Some screw terminal
+
 
