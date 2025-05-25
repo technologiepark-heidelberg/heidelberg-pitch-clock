@@ -1,7 +1,7 @@
 # Heidelberg Pitch Clock
 A pitch clock for startup events, hackathons, etc.
 
-[The original Heidelberg Pitch Clock in 2017](./pitch_clock_original.png)
+![The original Heidelberg Pitch Clock in 2017](./pitch_clock_original_hackathon.jpeg)
 
 ## History
 
