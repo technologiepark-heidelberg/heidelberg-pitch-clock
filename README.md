@@ -1,6 +1,8 @@
 # Heidelberg Pitch Clock
 A pitch clock for startup events, hackathons, etc.
 
+[The original Heidelberg Pitch Clock in 2017](./pitch_clock_original.png)
+
 ## History
 
 Our pitch clock story started back in May 2017, during our second {Life Science} meet IT | Hackathon. We were prepping for the event and looking at what worked and what didn't from the first round. A big issue? Timing the final presentations.
